@@ -1,0 +1,1503 @@
+{
+  "schemaVersion": "2.0.0",
+  "hotel": {
+    "name": "Pisa Hotel | Istanbul",
+    "whatsappNumber": "905324545940",
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+      "en",
+      "tr",
+      "ru"
+    ],
+    "logo": "logo.jpg"
+  },
+  "currency": "EUR",
+  "categories": [
+    "tour",
+    "experience",
+    "private_tour",
+    "wellness",
+    "airport_transfer",
+    "chauffeur"
+  ],
+  "services": [
+    {
+      "id": "TRF-TAXI",
+      "slug": "standard-yellow-taxi",
+      "category": "airport_transfer",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Standard Yellow Taxi",
+        "tr": "Normal Sarı Taksi",
+        "ru": "Обычное жёлтое такси"
+      },
+      "shortDescription": {
+        "en": "Fixed-price transfer from Pisa Hotel | Istanbul to IST or SAW airport.",
+        "tr": "Pisa Hotel | Istanbul’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
+        "ru": "Трансфер по фиксированной цене из Pisa Hotel | Istanbul в аэропорт IST или SAW."
+      },
+      "fullDescription": {
+        "en": "Departure from Pisa Hotel | Istanbul. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
+        "tr": "Pisa Hotel | Istanbul’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
+        "ru": "Отправление из Pisa Hotel | Istanbul. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
+      },
+      "duration": null,
+      "price": {
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "vehicle",
+        "displayMode": "from"
+      },
+      "media": {
+        "cover": "assets/yellow-taxi-cover-labeled.jpg",
+        "gallery": [
+          "assets/yellow-taxi-01.jpg",
+          "assets/yellow-taxi-02.jpg",
+          "assets/yellow-taxi-03.jpg",
+          "assets/yellow-taxi-04.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": "Pisa Hotel | Istanbul",
+      "bookingForm": "transfer",
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "ist",
+          "title": {
+            "en": "Istanbul Airport (IST)",
+            "tr": "İstanbul Havalimanı (IST)",
+            "ru": "Аэропорт Стамбула (IST)"
+          },
+          "price": {
+            "amount": 40,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        },
+        {
+          "id": "saw",
+          "title": {
+            "en": "Sabiha Gökçen Airport (SAW)",
+            "tr": "Sabiha Gökçen Havalimanı (SAW)",
+            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+          },
+          "price": {
+            "amount": 45,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        }
+      ],
+      "childDiscountEnabled": false
+    },
+    {
+      "id": "TRF-VITO",
+      "slug": "vip-mercedes-vito",
+      "category": "airport_transfer",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "VIP Mercedes Vito Transfer",
+        "tr": "VIP Mercedes Vito Transfer",
+        "ru": "VIP-трансфер Mercedes Vito"
+      },
+      "shortDescription": {
+        "en": "Fixed-price transfer from Pisa Hotel | Istanbul to IST or SAW airport.",
+        "tr": "Pisa Hotel | Istanbul’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
+        "ru": "Трансфер по фиксированной цене из Pisa Hotel | Istanbul в аэропорт IST или SAW."
+      },
+      "fullDescription": {
+        "en": "Departure from Pisa Hotel | Istanbul. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
+        "tr": "Pisa Hotel | Istanbul’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
+        "ru": "Отправление из Pisa Hotel | Istanbul. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
+      },
+      "duration": null,
+      "price": {
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "vehicle",
+        "displayMode": "from"
+      },
+      "media": {
+        "cover": "assets/vip-vito-cover-labeled.jpg",
+        "gallery": [
+          "assets/vip-vito-01.jpg",
+          "assets/vip-vito-02.jpg",
+          "assets/vip-vito-03.jpg",
+          "assets/vip-vito-04.jpg",
+          "assets/vip-vito-05.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": "Pisa Hotel | Istanbul",
+      "bookingForm": "transfer",
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "ist",
+          "title": {
+            "en": "Istanbul Airport (IST)",
+            "tr": "İstanbul Havalimanı (IST)",
+            "ru": "Аэропорт Стамбула (IST)"
+          },
+          "price": {
+            "amount": 55,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        },
+        {
+          "id": "saw",
+          "title": {
+            "en": "Sabiha Gökçen Airport (SAW)",
+            "tr": "Sabiha Gökçen Havalimanı (SAW)",
+            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+          },
+          "price": {
+            "amount": 60,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        }
+      ],
+      "childDiscountEnabled": false
+    },
+    {
+      "id": "TOUR-001",
+      "slug": "bosphorus-cruise",
+      "category": "tour",
+      "active": true,
+      "featured": true,
+      "title": {
+        "en": "Bosphorus Cruise",
+        "tr": "Boğaz Turu",
+        "ru": "Круиз по Босфору"
+      },
+      "shortDescription": {
+        "en": "Four daily Bosphorus cruise departures with breakfast, lunch or light refreshments.",
+        "tr": "Kahvaltı, öğle yemeği veya hafif ikramlarla dört farklı Boğaz turu seçeneği.",
+        "ru": "Четыре варианта круиза по Босфору: с завтраком, обедом или лёгкими угощениями."
+      },
+      "fullDescription": {
+        "tr": "İstanbul’un büyüleyici silüetini Boğaz’ın eşsiz manzarası eşliğinde keşfedin. Avrupa ve Asya kıtaları arasında süzülürken tarihi sarayların, görkemli köprülerin ve kıyı boyunca uzanan zarif yalıların güzelliğine tanıklık edin.\n\nİster güne sabahın huzuruyla başlayın, ister gün batımının altın tonlarını izleyin, ister akşam ışıkları altında İstanbul’un romantik atmosferini yaşayın. Dört farklı tur seçeneğimizle Boğaz’ın unutulmaz güzelliklerini keşfedin.",
+        "en": "Discover the timeless beauty of Istanbul from the waters of the Bosphorus. Sail between Europe and Asia as magnificent palaces, iconic bridges, and elegant waterfront mansions create an unforgettable panorama.\n\nFrom peaceful mornings to golden sunsets and enchanting evening lights, choose from four unique cruise experiences and see Istanbul from an extraordinary perspective.",
+        "ru": "Откройте для себя неповторимую красоту Стамбула во время круиза по Босфору. Насладитесь путешествием между Европой и Азией, любуясь великолепными дворцами, знаменитыми мостами и изящными особняками на берегу.\n\nУтреннее спокойствие, золотые краски заката или романтические огни вечернего города — выберите один из четырёх вариантов круиза и откройте для себя Стамбул с новой стороны."
+      },
+      "duration": null,
+      "price": {
+        "amount": 20,
+        "currency": "EUR",
+        "unit": "option",
+        "displayMode": "from",
+        "note": "Listed operator brochure price; per-person basis not explicitly confirmed; card payments +10% per brochure"
+      },
+      "media": {
+        "cover": "assets/bosphorus-01.jpg",
+        "gallery": [
+          "assets/bosphorus-02.jpg",
+          "assets/bosphorus-03.png",
+          "assets/bosphorus-04.jpg",
+          "assets/bosphorus-05.jpg",
+          "assets/bosphorus-06.jpg",
+          "assets/bosphorus-07.jpg",
+          "assets/bosphorus-08.jpg",
+          "assets/bosphorus-09.webp",
+          "assets/bosphorus-10.jpg",
+          "assets/bosphorus-11.jpg",
+          "assets/bosphorus-12.jpg",
+          "assets/bosphorus-13.jpg",
+          "assets/bosphorus-14.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "morning",
+          "title": {
+            "en": "Morning Cruise with Breakfast",
+            "tr": "Kahvaltılı Sabah Turu",
+            "ru": "Утренний круиз с завтраком"
+          },
+          "price": {
+            "amount": 25,
+            "currency": "EUR"
+          },
+          "departure": "10:00",
+          "return": "13:00",
+          "included": [
+            "Transfer",
+            "Boat tour",
+            "Breakfast",
+            "English and Russian guide",
+            "1-hour shopping stop on Asian side"
+          ]
+        },
+        {
+          "id": "afternoon",
+          "title": {
+            "en": "Afternoon Cruise with Lunch",
+            "tr": "Öğle Yemekli Tur",
+            "ru": "Дневной круиз с обедом"
+          },
+          "price": {
+            "amount": 35,
+            "currency": "EUR"
+          },
+          "departure": "13:15",
+          "return": "16:00",
+          "included": [
+            "Transfer",
+            "Boat tour",
+            "Lunch (drinks excluded)",
+            "English and Russian guide",
+            "45-minute shopping stop on Asian side"
+          ]
+        },
+        {
+          "id": "sunset",
+          "title": {
+            "en": "Sunset Cruise with Cookies & Tea",
+            "tr": "Çay ve Kurabiyeli Gün Batımı Turu",
+            "ru": "Круиз на закате с чаем и печеньем"
+          },
+          "price": {
+            "amount": 20,
+            "currency": "EUR"
+          },
+          "departure": "16:15",
+          "return": "19:00",
+          "included": [
+            "Transfer",
+            "Boat tour",
+            "Cookies and tea",
+            "English and Russian guide",
+            "45-minute shopping stop on Asian side"
+          ]
+        },
+        {
+          "id": "moonlight",
+          "title": {
+            "en": "Moonlight Cruise with Cookies & Tea",
+            "tr": "Çay ve Kurabiyeli Akşam Turu",
+            "ru": "Вечерний круиз с чаем и печеньем"
+          },
+          "price": {
+            "amount": 25,
+            "currency": "EUR"
+          },
+          "departure": "18:00",
+          "return": "20:00",
+          "included": [
+            "Hotel transfer",
+            "Bosphorus boat tour",
+            "English and Russian guide",
+            "Cookies and tea"
+          ]
+        }
+      ],
+      "priceNote": {
+        "en": "Brochure prices. Cash payment only. Final amount and availability require confirmation.",
+        "tr": "Broşür fiyatları. Yalnızca nakit ödeme kabul edilir. Son tutar ve müsaitlik teyit edilir.",
+        "ru": "Цены из буклета. Оплата только наличными. Итоговая сумма и наличие мест подтверждаются."
+      },
+      "childDiscountEnabled": true,
+      "childAgePolicy": {
+        "freeMaxAge": 3,
+        "discountMinAge": 4,
+        "discountMaxAge": 6,
+        "discountRate": 0.3
+      }
+    },
+    {
+      "id": "TOUR-008",
+      "slug": "dinner-cruise",
+      "category": "experience",
+      "active": true,
+      "featured": true,
+      "title": {
+        "en": "Dinner Cruise",
+        "tr": "Akşam Yemekli Tekne Turu",
+        "ru": "Вечерний круиз с ужином"
+      },
+      "shortDescription": {
+        "en": "An unforgettable evening on the Bosphorus with dinner, scenic views and live entertainment.",
+        "tr": "Boğaz’da akşam yemeği, eşsiz manzaralar ve canlı eğlenceyle unutulmaz bir gece.",
+        "ru": "Незабываемый вечер на Босфоре с ужином, красивыми видами и развлекательной программой."
+      },
+      "fullDescription": {
+        "en": "Enjoy a dinner cruise on the Bosphorus with evening city views and entertainment. Complimentary transfer and Wi-Fi are advertised. Operates nightly; program and availability are subject to confirmation. Payment is cash only.",
+        "tr": "Boğaz’da gece manzarası eşliğinde akşam yemeği ve eğlence programının keyfini çıkarın. Ücretsiz transfer ve Wi-Fi belirtilmektedir. Her gece düzenlenir; program ve müsaitlik teyide tabidir. Ödeme yalnızca nakittir.",
+        "ru": "Вечерний круиз по Босфору с ужином, ночными видами города и развлекательной программой. Заявлены бесплатный трансфер и Wi-Fi. Проводится каждый вечер; программу и наличие мест необходимо подтвердить. Оплата только наличными."
+      },
+      "duration": null,
+      "price": {
+        "amount": 50,
+        "currency": "USD",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/dinner-cruise-24.jpg",
+        "gallery": [
+          "assets/dinner-cruise-01.jpg",
+          "assets/dinner-cruise-02.jpg",
+          "assets/dinner-cruise-03.jpg",
+          "assets/dinner-cruise-04.jpg",
+          "assets/dinner-cruise-05.jpg",
+          "assets/dinner-cruise-06.jpg",
+          "assets/dinner-cruise-07.jpg",
+          "assets/dinner-cruise-08.jpg",
+          "assets/dinner-cruise-09.jpg",
+          "assets/dinner-cruise-10.jpg",
+          "assets/dinner-cruise-11.jpg",
+          "assets/dinner-cruise-12.jpg",
+          "assets/dinner-cruise-13.jpg",
+          "assets/dinner-cruise-14.jpg",
+          "assets/dinner-cruise-15.jpg",
+          "assets/dinner-cruise-16.jpg",
+          "assets/dinner-cruise-17.jpg",
+          "assets/dinner-cruise-18.jpg",
+          "assets/dinner-cruise-19.jpg",
+          "assets/dinner-cruise-20.jpg",
+          "assets/dinner-cruise-21.jpg",
+          "assets/dinner-cruise-22.jpg",
+          "assets/dinner-cruise-23.jpg",
+          "assets/dinner-cruise-24.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
+    },
+    {
+      "id": "TOUR-002",
+      "slug": "old-city-tour",
+      "category": "tour",
+      "active": true,
+      "featured": true,
+      "title": {
+        "en": "Old City Istanbul Tour & Bosphorus",
+        "tr": "Tarihi Yarımada ve Boğaz Turu",
+        "ru": "Экскурсия по Старому Стамбулу и Босфору"
+      },
+      "shortDescription": {
+        "en": "A full-day journey through Istanbul’s historic landmarks, the Bosphorus and the colorful streets of Balat.",
+        "tr": "İstanbul’un tarihi simgelerini, Boğaz’ı ve Balat’ın rengârenk sokaklarını keşfedeceğiniz dolu dolu bir gün.",
+        "ru": "Насыщенный день среди исторических достопримечательностей Стамбула, Босфора и ярких улиц Балата."
+      },
+      "fullDescription": {
+        "en": "Discover the many layers of Istanbul in one unforgettable day. Begin among the magnificent monuments of the Old City, including Hagia Sophia, the Blue Mosque and the historic Hippodrome. Then see the city from the water on a scenic Bosphorus boat tour, with lunch served on board. Continue to the remarkable Iron Church and the colorful houses, winding lanes and lively atmosphere of Balat. With hotel transfers and a guide included, enjoy a rich introduction to Istanbul’s history, culture and character.",
+        "tr": "İstanbul’un binlerce yıllık tarihini ve eşsiz güzelliklerini tek bir günde keşfedin. Ayasofya, Sultanahmet Camii ve tarihi Hipodrom ile başlayan yolculuğunuz, Boğaz’ın büyüleyici manzaraları eşliğinde tekne turu ve teknede öğle yemeğiyle devam ediyor. Ardından mimarisiyle dikkat çeken Demir Kilise’yi ziyaret edin; Balat’ın rengârenk evleri, tarihi merdivenleri ve kendine özgü sokaklarında İstanbul’un canlı kültürünü hissedin. Otel transferi ve rehber hizmeti dahil bu deneyimde şehrin unutulmaz yüzlerini bir arada yaşayın.",
+        "ru": "Откройте для себя многовековую историю и красоту Стамбула за один насыщенный день. Познакомьтесь с Айя-Софией, Голубой мечетью и историческим Ипподромом, затем полюбуйтесь городом с воды во время прогулки по Босфору с обедом на борту. Продолжите путешествие у знаменитой Железной церкви и на красочных улицах Балата с его историческими домами и лестницами. Трансфер из отеля и услуги гида включены."
+      },
+      "duration": "09:00–18:30",
+      "price": {
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/old-city-01.jpg",
+        "gallery": [
+          "assets/old-city-02.jpg",
+          "assets/old-city-03.jpg",
+          "assets/old-city-04.jpg",
+          "assets/old-city-05.jpg",
+          "assets/old-city-06.jpg",
+          "assets/old-city-07.jpg",
+          "assets/old-city-08.jpg",
+          "assets/old-city-09.jpg",
+          "assets/old-city-10.jpg",
+          "assets/old-city-11.jpg",
+          "assets/old-city-12.jpg",
+          "assets/old-city-13.jpg",
+          "assets/old-city-14.jpg",
+          "assets/old-city-15.jpg",
+          "assets/old-city-16.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [
+        "Hagia Sophia",
+        "Blue Mosque",
+        "Hippodrome",
+        "Bosphorus boat tour & lunch",
+        "Iron Church",
+        "Colorful houses & stairs",
+        "Balat neighbourhood"
+      ],
+      "included": [
+        "Hotel transfer",
+        "Hagia Sophia (museum visit as described in operator brochure)",
+        "Blue Mosque",
+        "Hippodrome",
+        "Bosphorus boat tour",
+        "Lunch on the boat",
+        "Iron Church",
+        "Colorful houses & stairs",
+        "Balat neighbourhood",
+        "Guide"
+      ],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "€90 per adult · Cash only. For children aged 0–6, please contact reception for pricing. Visits and access depend on local conditions.",
+        "tr": "Yetişkin kişi başı €90 · Yalnızca nakit. 0–6 yaş çocuk fiyatı için resepsiyona danışınız. Ziyaret ve giriş koşulları yerel duruma bağlıdır.",
+        "ru": "€90 за взрослого · Только наличные. Стоимость для детей 0–6 лет уточняйте на ресепшене. Посещение объектов зависит от местных условий."
+      },
+      "variants": [
+        {
+          "id": "old-city-full-day",
+          "title": {
+            "en": "Old City & Bosphorus Full-Day Tour",
+            "tr": "Tarihi Yarımada ve Boğaz Tam Gün Turu",
+            "ru": "Старый город и Босфор — экскурсия на целый день"
+          },
+          "price": {
+            "amount": 90,
+            "currency": "EUR"
+          },
+          "departure": "09:00",
+          "return": "18:30",
+          "included": [
+            "Hotel transfer",
+            "Hagia Sophia (museum visit as described in operator brochure)",
+            "Blue Mosque",
+            "Hippodrome",
+            "Bosphorus boat tour",
+            "Lunch on the boat",
+            "Iron Church",
+            "Colorful houses & stairs",
+            "Balat neighbourhood",
+            "Guide"
+          ]
+        }
+      ],
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
+    },
+    {
+      "id": "TOUR-003",
+      "slug": "princes-islands",
+      "category": "tour",
+      "active": true,
+      "featured": true,
+      "title": {
+        "en": "Princes’ Islands",
+        "tr": "Prens Adaları",
+        "ru": "Принцевы острова"
+      },
+      "shortDescription": {
+        "en": "A day among the islands: Büyükada and Heybeliada.",
+        "tr": "Büyükada ve Heybeliada’da keyifli bir ada günü.",
+        "ru": "День на островах Бююкада и Хейбелиада."
+      },
+      "fullDescription": {
+        "en": "Explore the Princes’ Islands by boat. Spend approximately three hours on Büyükada and one hour on Heybeliada. Guide service and return hotel drop-off are included. Pickup begins around 09:00; the tour finishes around 18:00.",
+        "tr": "Tekneyle Prens Adaları’nı keşfedin. Büyükada’da yaklaşık üç saat, Heybeliada’da bir saat serbest zamanın keyfini çıkarın. Rehberlik ve tur sonrası otele bırakma dahildir. Alınış yaklaşık 09:00, bitiş yaklaşık 18:00.",
+        "ru": "Путешествие на Принцевы острова на катере: около трёх часов на Бююкаде и одного часа на Хейбелиаде. Услуги гида и возвращение в отель включены. Начало около 09:00, завершение около 18:00."
+      },
+      "duration": "09:00–18:00",
+      "price": {
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/princes-islands-01.jpg",
+        "gallery": [
+          "assets/princes-islands-02.jpg",
+          "assets/princes-islands-03.jpg",
+          "assets/princes-islands-04.jpg",
+          "assets/princes-islands-05.jpg",
+          "assets/princes-islands-06.jpg",
+          "assets/princes-islands-07.jpg",
+          "assets/princes-islands-08.jpg",
+          "assets/princes-islands-09.jpg",
+          "assets/princes-islands-10.jpg",
+          "assets/princes-islands-11.jpg",
+          "assets/princes-islands-12.jpg",
+          "assets/princes-islands-13.jpg",
+          "assets/princes-islands-14.jpg",
+          "assets/princes-islands-15.jpg",
+          "assets/princes-islands-16.jpg",
+          "assets/princes-islands-17.jpg",
+          "assets/princes-islands-18.jpg",
+          "assets/princes-islands-19.jpg",
+          "assets/princes-islands-20.jpg",
+          "assets/princes-islands-21.jpg",
+          "assets/princes-islands-22.jpg",
+          "assets/princes-islands-23.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [
+        "09:00 – Hotel pickup / tour departure",
+        "Scenic boat journey to the Princes’ Islands",
+        "Büyükada – approximately 3 hours",
+        "Heybeliada – approximately 1 hour",
+        "Return journey and hotel drop-off by approximately 18:00"
+      ],
+      "included": [
+        "Boat service",
+        "Büyükada (~3 hours)",
+        "Heybeliada (~1 hour)",
+        "Guide",
+        "Hotel drop-off"
+      ],
+      "excluded": [],
+      "pickupInformation": "Tour begins around 09:00; pickup arrangements to be confirmed.",
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "Cash only. Final availability and service details require confirmation.",
+        "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
+        "ru": "Только наличные. Наличие мест и детали уточняются."
+      },
+      "childDiscountEnabled": true,
+      "childAgePolicy": {
+        "freeMaxAge": 3,
+        "discountMinAge": 4,
+        "discountMaxAge": 6,
+        "discountRate": 0.3
+      }
+    },
+    {
+      "id": "TOUR-005",
+      "slug": "bursa-uludag",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Bursa & Uludağ",
+        "tr": "Bursa ve Uludağ",
+        "ru": "Бурса и Улудаг"
+      },
+      "shortDescription": {
+        "en": "Full-day Bursa escape with lunch and scenic stops.",
+        "tr": "Öğle yemekli, manzaralı duraklarla tam günlük Bursa gezisi.",
+        "ru": "Однодневная экскурсия в Бурсу с обедом."
+      },
+      "fullDescription": {
+        "en": "Travel by ferry via Gebze–Yalova to Bursa. Visit Ottoman tombs, a Turkish delight stop, a jam shop and the Green Complex. Lunch and a soft drink are included. Cable car is weather-dependent; additional activities may cost extra.",
+        "tr": "Gebze–Yalova feribotuyla Bursa’ya yolculuk. Osmanlı türbeleri, lokum ve reçel durakları ile Yeşil Külliye ziyareti. Öğle yemeği ve meşrubat dahil. Teleferik hava koşullarına bağlıdır; ek aktiviteler ücretli olabilir.",
+        "ru": "Поездка в Бурсу через Гебзе–Ялова на пароме. Османские мавзолеи, дегустация лукума, магазин варенья и Зелёный комплекс. Обед и безалкогольный напиток включены. Канатная дорога зависит от погоды; дополнительные занятия оплачиваются отдельно."
+      },
+      "duration": "Full day",
+      "price": {
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/green-bursa-01.jpg",
+        "gallery": [
+          "assets/green-bursa-02.jpg",
+          "assets/green-bursa-03.jpg",
+          "assets/green-bursa-04.jpg",
+          "assets/green-bursa-05.jpg",
+          "assets/green-bursa-06.jpg",
+          "assets/green-bursa-07.jpg",
+          "assets/green-bursa-08.jpg",
+          "assets/green-bursa-09.jpg",
+          "assets/green-bursa-10.jpg",
+          "assets/green-bursa-11.jpg",
+          "assets/green-bursa-12.jpg",
+          "assets/green-bursa-13.jpg",
+          "assets/green-bursa-14.jpg",
+          "assets/green-bursa-15.jpg",
+          "assets/green-bursa-16.jpg",
+          "assets/green-bursa-17.jpg",
+          "assets/green-bursa-18.jpg",
+          "assets/green-bursa-19.jpg",
+          "assets/green-bursa-20.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [
+        "Ferry route",
+        "Ottoman tombs",
+        "Turkish delight stop",
+        "Jam shop",
+        "Lunch and soft drink",
+        "Green Complex",
+        "Cable car (weather permitting)"
+      ],
+      "excluded": [
+        "Optional extra activities"
+      ],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "Cash only. Final availability and service details require confirmation.",
+        "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
+        "ru": "Только наличные. Наличие мест и детали уточняются."
+      },
+      "childDiscountEnabled": false,
+      "childAgePolicy": {
+        "freeMaxAge": 2,
+        "discountMinAge": 3,
+        "discountMaxAge": 5,
+        "discountRate": 0.3
+      }
+    },
+    {
+      "id": "TOUR-006",
+      "slug": "sapanca-masukiye",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Sapanca & Maşukiye",
+        "tr": "Sapanca ve Maşukiye",
+        "ru": "Сапанджа и Машукие"
+      },
+      "shortDescription": {
+        "en": "Nature, lake views and riverside lunch.",
+        "tr": "Doğa, göl manzarası ve dere kenarında öğle yemeği.",
+        "ru": "Природа, озеро и обед у реки."
+      },
+      "fullDescription": {
+        "en": "A full-day trip to Sapanca and Maşukiye with a waterfall stop, riverside lunch, Sapanca Lake and a zoo stop. Bicycle, ATV, zoo admission and glass terrace are optional extras.",
+        "tr": "Şelale, dere kenarında öğle yemeği, Sapanca Gölü ve hayvanat bahçesi durağıyla tam günlük Sapanca–Maşukiye gezisi. Bisiklet, ATV, hayvanat bahçesi girişi ve cam teras ekstra ücretlidir.",
+        "ru": "Однодневная поездка к водопаду, озеру Сапанджа и зоопарку с обедом у реки. Велосипед, квадроцикл, вход в зоопарк и стеклянная терраса оплачиваются дополнительно."
+      },
+      "duration": "Full day",
+      "price": {
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/sapanca-masukiye-01.jpg",
+        "gallery": [
+          "assets/sapanca-masukiye-02.jpg",
+          "assets/sapanca-masukiye-03.jpg",
+          "assets/sapanca-masukiye-04.jpg",
+          "assets/sapanca-masukiye-05.jpg",
+          "assets/sapanca-masukiye-06.jpg",
+          "assets/sapanca-masukiye-07.jpg",
+          "assets/sapanca-masukiye-08.jpg",
+          "assets/sapanca-masukiye-09.jpg",
+          "assets/sapanca-masukiye-10.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [
+        "Waterfall stop",
+        "Riverside lunch",
+        "Sapanca Lake",
+        "Zoo stop"
+      ],
+      "excluded": [
+        "Bicycle",
+        "ATV",
+        "Zoo admission",
+        "Glass terrace"
+      ],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "Cash only. Final availability and service details require confirmation.",
+        "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
+        "ru": "Только наличные. Наличие мест и детали уточняются."
+      },
+      "childDiscountEnabled": false,
+      "childAgePolicy": {
+        "freeMaxAge": 2,
+        "discountMinAge": 3,
+        "discountMaxAge": 5,
+        "discountRate": 0.3
+      }
+    },
+    {
+      "id": "TOUR-004",
+      "slug": "cappadocia-tour",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Cappadocia Tour",
+        "tr": "Kapadokya Turu",
+        "ru": "Тур в Каппадокию"
+      },
+      "shortDescription": {
+        "en": "Overnight Cappadocia escape with guided sightseeing.",
+        "tr": "Konaklamalı ve rehberli Kapadokya gezisi.",
+        "ru": "Каппадокия с ночёвкой и экскурсией."
+      },
+      "fullDescription": {
+        "en": "Depart Istanbul around 18:00 by bus. Includes return bus transportation, one hotel night, breakfast, lunch and a guide. Day one features the Red Route; day two allows free time. Balloon flight is extra. Optional flight transport instead of bus costs an additional $150, subject to confirmation.",
+        "tr": "İstanbul’dan yaklaşık 18:00’de otobüsle hareket. Gidiş-dönüş otobüs, bir gece otel, kahvaltı, öğle yemeği ve rehber dahil. İlk gün Kırmızı Rota, ikinci gün serbest zaman. Balon turu ekstra. Otobüs yerine uçak seçeneği +$150 (teyide bağlı).",
+        "ru": "Отправление из Стамбула на автобусе около 18:00. Включены автобус туда-обратно, одна ночь в отеле, завтрак, обед и гид. В первый день Красный маршрут, во второй свободное время. Полёт на шаре за доплату. Замена автобуса самолётом +$150 при подтверждении."
+      },
+      "duration": "Overnight trip",
+      "price": {
+        "amount": 300,
+        "currency": "USD",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/cappadocia-01.jpg",
+        "gallery": [
+          "assets/cappadocia-02.jpg",
+          "assets/cappadocia-03.jpg",
+          "assets/cappadocia-04.jpg",
+          "assets/cappadocia-05.jpg",
+          "assets/cappadocia-06.jpg",
+          "assets/cappadocia-07.jpg",
+          "assets/cappadocia-08.jpg",
+          "assets/cappadocia-09.jpg",
+          "assets/cappadocia-10.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [
+        "Return bus transport",
+        "One hotel night",
+        "Breakfast",
+        "Lunch",
+        "Guide",
+        "Red Route on day one",
+        "Free time on day two"
+      ],
+      "excluded": [
+        "Balloon flight",
+        "Optional flight upgrade +$150"
+      ],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "Cash only. Final availability and service details require confirmation.",
+        "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
+        "ru": "Только наличные. Наличие мест и детали уточняются."
+      },
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
+    },
+    {
+      "id": "TOUR-FLORYA",
+      "slug": "florya-aquarium",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Florya Aquarium",
+        "tr": "Florya Akvaryum",
+        "ru": "Аквариум Флория"
+      },
+      "shortDescription": {
+        "en": "Explore the aquarium with transport and guide.",
+        "tr": "Transfer ve rehberle akvaryumu keşfedin.",
+        "ru": "Посетите аквариум с трансфером и гидом."
+      },
+      "fullDescription": {
+        "en": "Aquarium admission, transportation and guide are included. Choose a morning or afternoon session.",
+        "tr": "Akvaryum girişi, ulaşım ve rehber dahil. Sabah veya öğleden sonra seansını seçin.",
+        "ru": "Вход в аквариум, транспорт и гид включены. Выберите утренний или дневной сеанс."
+      },
+      "duration": "09:30–14:00 / 12:30–17:00",
+      "price": {
+        "amount": 35,
+        "currency": "USD",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/florya-aquarium-01.jpg",
+        "gallery": [
+          "assets/florya-aquarium-02.jpg",
+          "assets/florya-aquarium-03.jpg",
+          "assets/florya-aquarium-04.jpg",
+          "assets/florya-aquarium-05.jpg",
+          "assets/florya-aquarium-06.jpg",
+          "assets/florya-aquarium-07.jpg",
+          "assets/florya-aquarium-08.jpg",
+          "assets/florya-aquarium-09.jpg",
+          "assets/florya-aquarium-10.jpg",
+          "assets/florya-aquarium-11.jpg",
+          "assets/florya-aquarium-12.jpg",
+          "assets/florya-aquarium-13.jpg",
+          "assets/florya-aquarium-14.jpg",
+          "assets/florya-aquarium-15.jpg",
+          "assets/florya-aquarium-16.jpg",
+          "assets/florya-aquarium-17.jpg",
+          "assets/florya-aquarium-18.jpg",
+          "assets/florya-aquarium-19.jpg",
+          "assets/florya-aquarium-20.jpg",
+          "assets/florya-aquarium-21.jpg",
+          "assets/florya-aquarium-22.jpg",
+          "assets/florya-aquarium-23.jpg",
+          "assets/florya-aquarium-24.jpg",
+          "assets/florya-aquarium-25.jpg",
+          "assets/florya-aquarium-26.jpg",
+          "assets/florya-aquarium-27.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [
+        "Aquarium entrance",
+        "Guide",
+        "Transportation"
+      ],
+      "excluded": [],
+      "pickupInformation": "Tour begins around 09:00; pickup arrangements to be confirmed.",
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "Cash only. Confirm availability and inclusions.",
+        "tr": "Yalnızca nakit. Müsaitlik ve dahil olan hizmetleri teyit edin.",
+        "ru": "Только наличные. Уточните наличие мест и включённые услуги."
+      },
+      "variants": [
+        {
+          "id": "morning",
+          "title": {
+            "en": "Morning Session",
+            "tr": "Sabah Seansı",
+            "ru": "Утренний сеанс"
+          },
+          "price": {
+            "amount": 35,
+            "currency": "USD"
+          },
+          "departure": "09:30",
+          "return": "14:00",
+          "included": [
+            "Aquarium entrance",
+            "Guide",
+            "Transportation"
+          ]
+        },
+        {
+          "id": "afternoon",
+          "title": {
+            "en": "Afternoon Session",
+            "tr": "Öğleden Sonra Seansı",
+            "ru": "Дневной сеанс"
+          },
+          "price": {
+            "amount": 35,
+            "currency": "USD"
+          },
+          "departure": "12:30",
+          "return": "17:00",
+          "included": [
+            "Aquarium entrance",
+            "Guide",
+            "Transportation"
+          ]
+        }
+      ],
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
+    },
+    {
+      "id": "TOUR-VIALAND",
+      "slug": "vialand-theme-park",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Vialand Theme Park",
+        "tr": "Vialand Tema Parkı",
+        "ru": "Парк развлечений Виаленд"
+      },
+      "shortDescription": {
+        "en": "Enjoy an exciting day of roller coasters, family attractions and themed entertainment.",
+        "tr": "Hız trenleri, aile eğlenceleri ve tematik alanlarla heyecan dolu bir gün.",
+        "ru": "День американских горок, семейных аттракционов и тематических развлечений."
+      },
+      "fullDescription": {
+        "en": "Explore Vialand, Istanbul’s popular theme park, with thrilling rides, family-friendly attractions and colorful themed areas. Choose the morning or afternoon tour. Admission with unlimited access to included rides, guide service and comfortable transport are included according to the supplied tour brochure. Ride operations and access may vary.",
+        "tr": "İstanbul’un sevilen tema parkı Vialand’da hız trenlerini, ailece eğlenebileceğiniz oyuncakları ve renkli tematik alanları keşfedin. Sabah veya öğleden sonra seansını seçebilirsiniz. Paylaşılan tur broşürüne göre giriş bileti, kapsam dahilindeki eğlence ünitelerine sınırsız erişim, rehberlik ve konforlu ulaşım dahildir. Ünitelerin çalışma durumu değişebilir.",
+        "ru": "Посетите тематический парк Vialand в Стамбуле: американские горки, семейные аттракционы и тематические зоны. Выберите утренний или дневной сеанс. По предоставленному буклету включены входной билет, неограниченный доступ к включённым аттракционам, гид и комфортабельный транспорт. Работа аттракционов может меняться."
+      },
+      "duration": "10:30–15:00 / 13:00–18:00",
+      "price": {
+        "amount": 60,
+        "currency": "USD",
+        "unit": "person",
+        "displayMode": "fixed"
+      },
+      "media": {
+        "cover": "assets/vialand-01.jpg",
+        "gallery": [
+          "assets/vialand-02.jpg",
+          "assets/vialand-03.jpg",
+          "assets/vialand-04.jpg",
+          "assets/vialand-05.jpg",
+          "assets/vialand-06.png",
+          "assets/vialand-07.jpg",
+          "assets/vialand-08.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [
+        "Park admission",
+        "Rides subject to park terms",
+        "Guide",
+        "Transportation"
+      ],
+      "excluded": [],
+      "pickupInformation": "Tour begins around 09:00; pickup arrangements to be confirmed.",
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "priceNote": {
+        "en": "Cash only. Confirm availability and inclusions.",
+        "tr": "Yalnızca nakit. Müsaitlik ve dahil olan hizmetleri teyit edin.",
+        "ru": "Только наличные. Уточните наличие мест и включённые услуги."
+      },
+      "variants": [
+        {
+          "id": "morning",
+          "title": {
+            "en": "Morning Session",
+            "tr": "Sabah Seansı",
+            "ru": "Утренний сеанс"
+          },
+          "price": {
+            "amount": 60,
+            "currency": "USD"
+          },
+          "departure": "10:30",
+          "return": "15:00",
+          "included": [
+            "Park admission",
+            "Rides subject to park terms",
+            "Guide",
+            "Transportation"
+          ]
+        },
+        {
+          "id": "afternoon",
+          "title": {
+            "en": "Afternoon Session",
+            "tr": "Öğleden Sonra Seansı",
+            "ru": "Дневной сеанс"
+          },
+          "price": {
+            "amount": 60,
+            "currency": "USD"
+          },
+          "departure": "13:00",
+          "return": "18:00",
+          "included": [
+            "Park admission",
+            "Rides subject to park terms",
+            "Guide",
+            "Transportation"
+          ]
+        }
+      ],
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
+    },
+    {
+      "id": "TOUR-010",
+      "slug": "turkish-bath",
+      "category": "wellness",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Turkish Bath Experience",
+        "tr": "Türk Hamamı Deneyimi",
+        "ru": "Турецкий хаммам"
+      },
+      "shortDescription": {
+        "en": "Traditional Turkish bath packages from €30.",
+        "tr": "€30’dan başlayan geleneksel Türk hamamı paketleri.",
+        "ru": "Пакеты турецкого хаммама от €30."
+      },
+      "fullDescription": {
+        "en": "Dibekli Grand Hamam offers three main wellness packages, followed by a selection of individual massage services and optional extras.",
+        "tr": "Dibekli Grand Hamam’da üç ana paket, ayrı masaj hizmetleri ve isteğe bağlı ek uygulamalar sunulur.",
+        "ru": "Dibekli Grand Hamam предлагает три основных пакета, отдельные виды массажа и дополнительные процедуры."
+      },
+      "duration": null,
+      "price": {
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "person",
+        "displayMode": "from"
+      },
+      "media": {
+        "cover": "assets/turkish-bath-422.jpg",
+        "gallery": [
+          "assets/turkish-bath-427.jpg",
+          "assets/turkish-bath-443.jpg",
+          "assets/turkish-bath-453.jpg",
+          "assets/turkish-bath-426.jpg",
+          "assets/turkish-bath-447.jpg",
+          "assets/turkish-bath-449.jpg",
+          "assets/turkish-bath-429.jpg",
+          "assets/turkish-bath-441.jpg",
+          "assets/turkish-bath-424.jpg",
+          "assets/turkish-bath-442.jpg",
+          "assets/turkish-bath-446.jpg",
+          "assets/turkish-bath-444.jpg",
+          "assets/turkish-bath-423.jpg",
+          "assets/turkish-bath-436.jpg",
+          "assets/turkish-bath-440.jpg",
+          "assets/turkish-bath-433.jpg",
+          "assets/turkish-bath-438.jpg",
+          "assets/turkish-bath-457.jpg",
+          "assets/turkish-bath-425.jpg",
+          "assets/turkish-bath-432.jpg",
+          "assets/turkish-bath-452.jpg",
+          "assets/turkish-bath-455.jpg",
+          "assets/turkish-bath-428.jpg",
+          "assets/turkish-bath-435.jpg",
+          "assets/turkish-bath-439.jpg",
+          "assets/turkish-bath-454.jpg",
+          "assets/turkish-bath-430.jpg",
+          "assets/turkish-bath-450.jpg",
+          "assets/turkish-bath-451.jpg",
+          "assets/turkish-bath-431.jpg",
+          "assets/turkish-bath-434.jpg",
+          "assets/turkish-bath-437.jpg",
+          "assets/turkish-bath-445.jpg",
+          "assets/turkish-bath-448.jpg",
+          "assets/turkish-bath-456.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [
+        "15-minute sauna with main packages",
+        "Tea or coffee with main packages",
+        "Pestemal, towel, shampoo and slippers"
+      ],
+      "excluded": [],
+      "pickupInformation": {
+        "en": "Free transfer within Sultanahmet, subject to arrangement.",
+        "tr": "Sultanahmet bölgesinde ücretsiz transfer (rezervasyon sırasında ayarlanır).",
+        "ru": "Бесплатный трансфер в районе Султанахмет (по согласованию)."
+      },
+      "bookingForm": "tour",
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "package-30",
+          "title": {
+            "en": "Oil Massage Program",
+            "tr": "Yağ Masajı Programı",
+            "ru": "Масляный массаж"
+          },
+          "price": {
+            "amount": 30,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": [
+            "30-minute massage",
+            "15-minute sauna",
+            "Tea or coffee"
+          ],
+          "includedTranslations": {
+            "tr": [
+              "30 dakika masaj",
+              "15 dakika sauna",
+              "Çay veya kahve"
+            ]
+          }
+        },
+        {
+          "id": "package-40",
+          "title": {
+            "en": "Turkish Bath Program",
+            "tr": "Türk Hamamı Programı",
+            "ru": "Турецкий хаммам"
+          },
+          "price": {
+            "amount": 40,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": [
+            "30-minute full-body scrub and foam massage on hot marble",
+            "15-minute sauna",
+            "Tea or coffee"
+          ],
+          "includedTranslations": {
+            "tr": [
+              "Sıcak mermer üzerinde 30 dakika tüm vücut kese ve köpük masajı",
+              "15 dakika sauna",
+              "Çay veya kahve"
+            ]
+          }
+        },
+        {
+          "id": "package-60",
+          "title": {
+            "en": "Full Program: Hamam + Massage",
+            "tr": "Tam Program: Hamam + Masaj",
+            "ru": "Полный пакет: хаммам и массаж"
+          },
+          "price": {
+            "amount": 60,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": [
+            "30-minute scrub and foam massage on hot marble",
+            "30-minute full-body oil massage",
+            "15-minute sauna",
+            "Tea or coffee"
+          ],
+          "includedTranslations": {
+            "tr": [
+              "Sıcak mermer üzerinde 30 dakika kese ve köpük masajı",
+              "30 dakika tüm vücut yağ masajı",
+              "15 dakika sauna",
+              "Çay veya kahve"
+            ]
+          }
+        }
+      ],
+      "priceNote": {
+        "en": "Main packages €30 / €40 / €60; individual massages and extras are charged separately. Pay at the hammam: cash with no surcharge, or credit card with a 10% surcharge. Guests under 13 are not admitted.",
+        "tr": "Ana paketler €30 / €40 / €60; masajlar ve ek hizmetler ayrıca ücretlendirilir. Ödeme hamamda yapılır: nakit komisyonsuz, kredi kartı %10 ek ücretli. 13 yaş altı kabul edilmez.",
+        "ru": "Основные пакеты €30 / €40 / €60; отдельные массажи и дополнительные услуги оплачиваются отдельно. Оплата в хаммаме: наличными без комиссии или картой с доплатой 10%. Дети младше 13 лет не допускаются."
+      },
+      "childDiscountEnabled": false,
+      "paymentPolicy": {
+        "location": "at_venue",
+        "cashSurchargeRate": 0,
+        "cardSurchargeRate": 0.1
+      },
+      "minimumAge": 13,
+      "provider": "Dibekli Grand Hamam",
+      "massageServices": [
+        {
+          "title": {
+            "en": "Aromatherapy Massage",
+            "tr": "Aromaterapi Masajı",
+            "ru": "Ароматерапевтический массаж"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Deep Tissue Massage",
+            "tr": "Derin Doku Masajı",
+            "ru": "Глубокотканный массаж"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Anti-Stress Massage",
+            "tr": "Anti-Stres Masajı",
+            "ru": "Антистрессовый массаж"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Swedish Massage",
+            "tr": "İsveç Masajı",
+            "ru": "Шведский массаж"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Bali Massage",
+            "tr": "Bali Masajı",
+            "ru": "Балийский массаж"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Back Massage",
+            "tr": "Sırt Masajı",
+            "ru": "Массаж спины"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Foot Massage",
+            "tr": "Ayak Masajı",
+            "ru": "Массаж стоп"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        }
+      ],
+      "optionalExtras": [
+        {
+          "title": {
+            "en": "Extra 30-minute massage",
+            "tr": "Ek 30 dakika masaj",
+            "ru": "Дополнительный массаж 30 минут"
+          },
+          "price": {
+            "amount": 20,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Salt peeling",
+            "tr": "Tuz peelingi",
+            "ru": "Солевой пилинг"
+          },
+          "price": {
+            "amount": 10,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Coffee peeling",
+            "tr": "Kahve peelingi",
+            "ru": "Кофейный пилинг"
+          },
+          "price": {
+            "amount": 15,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Clay or coffee face mask",
+            "tr": "Kil veya kahve yüz maskesi",
+            "ru": "Глиняная или кофейная маска для лица"
+          },
+          "price": {
+            "amount": 5,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Cupping massage",
+            "tr": "Kupa masajı",
+            "ru": "Баночный массаж"
+          },
+          "price": {
+            "amount": 70,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "venue": {
+        "name": "Dibekli Grand Hamam",
+        "address": "Grand Yavuz Hotel, Piyer Loti Cd. No:51, Emin Sinan Mah., Fatih, İstanbul",
+        "openingHours": "Every day 12:00–22:00"
+      },
+      "bookingConditions": {
+        "minimumAge": 13,
+        "arrivalMinutesBefore": 15,
+        "depositPerPerson": {
+          "amount": 5,
+          "currency": "EUR"
+        },
+        "cancellationCharge": {
+          "amount": 5,
+          "currency": "EUR"
+        },
+        "cashCurrencies": [
+          "EUR",
+          "TRY",
+          "USD"
+        ],
+        "notes": {
+          "en": "€5 deposit per person required; brochure states €5 charge for cancelled reservations. Deposit collection method not specified.",
+          "tr": "Kişi başı €5 depozito gereklidir; broşürde iptal edilen rezervasyonlar için €5 ücret belirtilir. Depozito tahsilat yöntemi belirtilmemiştir.",
+          "ru": "Требуется депозит €5 с человека; в буклете указана плата €5 за отмену. Способ внесения депозита не указан."
+        }
+      }
+    }
+  ],
+  "forms": {
+    "tour": {
+      "required": [
+        "guestName",
+        "serviceId",
+        "date",
+        "guestCount"
+      ],
+      "optional": [
+        "roomNumber",
+        "phone",
+        "notes"
+      ]
+    },
+    "transfer": {
+      "required": [
+        "guestName",
+        "serviceId",
+        "airport",
+        "date",
+        "time",
+        "roomNumber",
+        "adultCount",
+        "childCount"
+      ],
+      "optional": [
+        "luggageCount",
+        "phone",
+        "notes"
+      ]
+    }
+  },
+  "booking": {
+    "method": "whatsapp_click_to_chat",
+    "requiresGuestToPressSend": true,
+    "messageTemplate": "Pisa Hotel | Istanbul — Reservation Request\nService: {serviceTitle}\nGuest: {guestName}\nDate: {date}\nDetails: {details}\nPlease confirm availability and price."
+  }
+}
